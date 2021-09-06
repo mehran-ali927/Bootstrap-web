@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap tutorial</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+<div class="container" style="border: 5px gray ridge;">
+    <!-- First row starts -->
+    <div class="row">
+<div class="col-md-2">
+<a href="#"><img src="images/code & Design.jpg" height="150px" width="150px" alt="Code & Design"></a>
+</div>
+<div class="col-md-10">
+<h2 class="jumbotron text-center" style="color: indigo; font-family: 'Times New Roman'; font-size: 80px;">Code & Design</h2>
+
+</div>
+</div>
+<!-- 2nd Row Starts -->
+<div class="row"> <nav class="navbar navbar-default">
+        <div class="container">
+<div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#btncollapse" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+
+    </button>
+<a href="#" class="navbar-brand"> MY WEBSITE</a>
+</div>
+<div id="btncollapse" class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+    <li><a href="#">Home</a></li>
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li class="dropdown-header">Gifts</li>
+            <li><a href="#">Perfumes</a></li>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">Joggars</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header"> Shirts</li>
+            <li><a href="#">T-Shirts</a></li>
+            <li><a href="#">Trouser's</a></li>
+
+        </ul>
+    </li>
+    <li><a href="#">Gallery</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+
+
+</ul>
+<div class="nav navbar-nav navbar-right">
+    <form action="" class="navbar-form navbar-left">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+        <div class="input-group-btn">
+            <button type="submit" class="btn btn-default">
+            <i class="glyphicon glyphicon-search"></i>
+            </button>
+    </div>
+        </div>
+    </form>
+            <li><a href="#"><span><span class="glyphicon glyphicon-user"></span> Sign Up</span></a></li>
+            <li><a href="#"><span><span class="glyphicon glyphicon-log-in"></span>  Login</span></a></li>
+
+</div>
+</div>
+</div>
+</nav>
+</div>
+<!-- 3rd row starts-->
+    <div class="row">
+        <div class="carousel slide" id="myCarousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+
+
+
+            </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/img0.png" alt="">
+                        <div class="carousel-caption">
+                            <h3> Image 0</h3>
+                            <p> This is my image 0</p>
+
+                        </div>
+                        
+                    </div>
+                    <div class="item">
+                        <img src="images/img1.png" alt="">
+                        <div class="carousel-caption">
+                            <h3> Image 1</h3>
+                            <p> This is my image 1 </p>
+
+                        </div>
+                        
+                    </div>
+                    <div class="item">
+                        <img src="images/img2.png" alt="">
+                        <div class="carousel-caption">
+                            <h3> Image 2 </h3>
+                            <p> This is my image 2 </p>
+
+                        </div>
+                        
+                    </div>
+                    <a href="#myCarousel" class="right carousel-control" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+
+                    </a>
+                    <a href="#myCarousel" class="left carousel-control" data-slide="previous">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+
+                    </a>
+
+                </div>
+
+        </div>
+    </div>
+    <!-- 4th Row Starts-->
+    <div class="row">
+        <div class="col-md-4">
+        <div class="thumbnail">
+            <h2 class="text-center">MARKETING</h2>
+            <img src="images/lptop1.jpg" alt="" class="img-responsive">
+            <b><p>THIS IS MY SIMPLE BOOTSTRAP CARD THIS IS MY SIMPLE BOOTSTRAP CARD THIS IS MY SIMPLE BOOTSTRAP CARD THIS IS MY SIMPLE BOOTSTRAP CARD
+                <br><button class="btn btn-info btn-block">CLICK ME</button>
+            </b></p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <h2 class="text-center">MARKETING</h2>
+            <img src="images/lptop3.jpg" alt="" class="img-responsive">
+            <b><p>THIS IS MY SIMPLE BOOTSTRAP CARD THIS IS MY SIMPLE BOOTSTRAP CARD THIS IS MY SIMPLE BOOTSTRAP CARD THIS IS MY SIMPLE BOOTSTRAP CARD
+                <br><button class="btn btn-success btn-block">CLICK ME</button>
+            </b></p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <h2 class="text-center">MARKETING</h2>
+            <img src="images/lptop1.jpg" alt="" class="img-responsive">
+            <b><p>THIS IS MY SIMPLE BOOTSTRAP CARD THIS IS MY SIMPLE BOOTSTRAP CARD THIS IS MY SIMPLE BOOTSTRAP CARD THIS IS MY SIMPLE BOOTSTRAP CARD
+                <br><button class="btn btn-danger btn-block">CLICK ME</button>
+            </b></p>
+        </div>
+    </div>
+    </div>
+    <!-- 5th Row Starts-->
+    <div class="row">
+        <div class="col-md-4">
+        <div class="thumbnail">
+            <h2 class="text-center">SPICY BURGERS</h2>
+            <img src="images/brgr1.jpg" alt="" class="img-responsive">
+            <b><p>THIS IS MY SIMPLE BOOTSTRAP CARD THIS IS MY SIMPLE BOOTSTRAP CARD THIS IS MY SIMPLE BOOTSTRAP CARD THIS IS MY SIMPLE BOOTSTRAP CARD
+                <br><button class="btn btn-info btn-block">CLICK ME</button>
+            </b></p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <h2 class="text-center">SPICY BURGERS</h2>
+            <img src="images/brgr2.jpg" alt="" class="img-responsive">
+            <b><p>THIS IS MY SIMPLE BOOTSTRAP CARD THIS IS MY SIMPLE BOOTSTRAP CARD THIS IS MY SIMPLE BOOTSTRAP CARD THIS IS MY SIMPLE BOOTSTRAP CARD
+                <br><button class="btn btn-success btn-block">CLICK ME</button>
+            </b></p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <h2 class="text-center">SPICY BURGERS</h2>
+            <img src="images/brgr3.jpg" alt="" class="img-responsive">
+            <b><p>THIS IS MY SIMPLE BOOTSTRAP CARD THIS IS MY SIMPLE BOOTSTRAP CARD THIS IS MY SIMPLE BOOTSTRAP CARD THIS IS MY SIMPLE BOOTSTRAP CARD
+                <br><button class="btn btn-danger btn-block">CLICK ME</button>
+            </b></p>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+</body>
+</html>
